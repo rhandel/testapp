@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.rifewavz.mediaapp.MainActivity">
+
+    <Button
+        android:id="@+id/btn_toggle_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toggle Bluetooth" />
+
+    <Button
+        android:id="@+id/btn_pair_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pair Bluetooth Device" />
+
+    <Button
+        android:id="@+id/btn_forget_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forget Bluetooth Device" />
+
+    <Button
+        android:id="@+id/btn_set_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Date/Time" />
+
+    <Button
+        android:id="@+id/btn_set_timezone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Timezone" />
+
+    <Button
+        android:id="@+id/btn_read_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Audio File (mp3/wav)" />
+
+    <Button
+        android:id="@+id/btn_write_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Audio File (mp3/wav)" />
+
+    <Button
+        android:id="@+id/btn_read_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Video File (mp4/mkv)" />
+
+    <Button
+        android:id="@+id/btn_write_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Video File (mp4/mkv)" />
+
+    <Button
+        android:id="@+id/btn_read_m3u"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read M3U File" />
+
+    <Button
+        android:id="@+id/btn_write_m3u"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write M3U File" />
+
+    <Button
+        android:id="@+id/btn_delete_m3u"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete M3U File" />
+
+</LinearLayout>
