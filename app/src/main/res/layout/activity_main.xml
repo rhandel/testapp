@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="com.rifewavz.mediaapp.MainActivity">
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btn_toggle_bluetooth"
@@ -38,46 +38,34 @@
         android:layout_height="wrap_content"
         android:text="Set Timezone" />
 
-    <Button
-        android:id="@+id/btn_read_audio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Read Audio File (mp3/wav)" />
-
+    <!-- WRITE FIRST -->
     <Button
         android:id="@+id/btn_write_audio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Write Audio File (mp3/wav)" />
+        android:text="Write File" />
 
+    <!-- READ SECOND -->
     <Button
-        android:id="@+id/btn_read_video"
+        android:id="@+id/btn_read_audio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Read Video File (mp4/mkv)" />
+        android:text="Read File" />
 
-    <Button
-        android:id="@+id/btn_write_video"
+    <!-- BRIGHTNESS SLIDER -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brightness"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp" />
+
+    <SeekBar
+        android:id="@+id/brightness_seekbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Write Video File (mp4/mkv)" />
-
-    <Button
-        android:id="@+id/btn_read_m3u"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Read M3U File" />
-
-    <Button
-        android:id="@+id/btn_write_m3u"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Write M3U File" />
-
-    <Button
-        android:id="@+id/btn_delete_m3u"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Delete M3U File" />
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
 
 </LinearLayout>

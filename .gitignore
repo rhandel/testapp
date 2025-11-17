@@ -26,5 +26,6 @@ gradlew.bat
 /.idea/compiler.xml
 /app/proguard-rules.pro
 /.idea/deploymentTargetSelector.xml
-
-
+/.kotlin
+/.idea/deviceManager.xml
+/.idea/.name
